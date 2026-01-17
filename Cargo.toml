@@ -10,3 +10,12 @@ authors = ["Jan Baudisch <jan.baudisch@uni-ulm.de>"]
 readme = "README.md"
 homepage = "https://github.com/SoftVarE-Group/mt-kahypar-sys"
 repository = "https://github.com/SoftVarE-Group/mt-kahypar-sys.git"
+
+[features]
+# Enable building the mt-kahypar library (statically linked) from source including all of its dependencies.
+bundled = []
+
+[build-dependencies]
+bindgen = "0.72"
+cmake = "0.1"
+cargo-emit = "0.2"
