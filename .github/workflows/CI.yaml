@@ -27,3 +27,5 @@ jobs:
         uses: actions/checkout@v3
       - name: Build
         run: cargo build
+      - name: Build bundled
+        run: cargo build --features bundled
