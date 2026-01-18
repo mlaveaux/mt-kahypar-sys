@@ -15,10 +15,9 @@ mt-kahypar-sys = "0.1"
 
 ## Requirements
 
- - [Mt-KaHyPar][mtkahypar]
-
-**Note:** Currently, Mt-KaHyPar can not be built statically.
-Therefore, bundling it with the crate is not possible and the shared library has to be present.
+The [Mt-KaHyPar][mtkahypar] libraries can be build and linked internally by
+enabling the `bundled` feature. Otherwise, an existing installation is required,
+see below.
 
 ### Using existing Mt-KaHyPar
 

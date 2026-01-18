@@ -17,5 +17,6 @@ bundled = []
 
 [build-dependencies]
 bindgen = "0.72"
+cc = { version = "1.2", features = ["parallel"] }
 cmake = "0.1"
 cargo-emit = "0.2"
